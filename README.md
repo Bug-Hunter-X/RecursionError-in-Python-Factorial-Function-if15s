@@ -1,0 +1,2 @@
+# Python RecursionError Bug
+This repository demonstrates a common error in Python: the RecursionError.  The `factorial.py` file contains a recursive factorial function that works correctly for positive integers but causes a RecursionError when called with a negative input due to unbounded recursion. The solution (`bugSolution.py`) shows how to add input validation to prevent this error.
